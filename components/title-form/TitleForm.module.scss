@@ -1,0 +1,21 @@
+.pageTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  color: $white;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}

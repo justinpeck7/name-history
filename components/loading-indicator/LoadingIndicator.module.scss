@@ -1,0 +1,26 @@
+.loadingContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.loadingSpinner {
+  border-radius: 50%;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: $green transparent $green transparent;
+  height: 4rem;
+  width: 4rem;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

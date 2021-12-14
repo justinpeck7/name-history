@@ -1,0 +1,14 @@
+.nameInput {
+  font-size: 6rem;
+  margin: 0 2rem;
+  color: $orange;
+  width: 28rem;
+  max-width: 100%;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $orange;
+  &:focus {
+    outline: none;
+  }
+}

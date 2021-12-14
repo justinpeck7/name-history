@@ -1,0 +1,19 @@
+.infoTooltip {
+  position: absolute;
+  background-color: $gray;
+  color: $white;
+  font-size: 1.7rem;
+  padding: 2rem;
+  border: 1px solid $white;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.totalBabies {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+}
